@@ -42,7 +42,7 @@ API для получения прогноза погоды (температу�
 ####  http://localhost:8080/swagger-ui.html
 
 В поле "cityName" указать название города на английском языке, пример ссылки с указанным городом:
-#### http://localhost/api/getWeather/Samara
+#### http://localhost/api/getWeather/Samara 
 
 ####  Пример ответа:
 json
@@ -57,4 +57,4 @@ json
 #### docker compose down
 
 Удалить контейнеры, сети и образы:
-docker compose down --rmi all
+#### docker compose down --rmi all
